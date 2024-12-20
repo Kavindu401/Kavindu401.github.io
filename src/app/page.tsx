@@ -1,5 +1,5 @@
-import Image from "next/image";
-import face from "./assets/face.jpg"
+// import Image from "next/image";
+// import face from "./assets/face.jpg"
 
 export default function Home() {
   return (
