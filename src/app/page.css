@@ -2,7 +2,7 @@
     color: white;
     font-family: monospace;
     font-size: 3rem;
-    margin-top: 5rem;
+    margin-top: 7rem;
     margin-left: 5rem;
     font-family: 'Courier New', Courier, monospace;
     width: 0;
@@ -34,7 +34,7 @@
 
   .para{
     margin-left: 5rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
     display: inline-block;
     visibility: hidden;
     width: 600px;
