@@ -32,7 +32,7 @@ export default function Home() {
         {/* <Badge variant="outline">Outline</Badge> */}
         
         </div>
-        <h1 className="headTxt">&lt;Hi,I'm <span className="text-yellow-500 font-bold font-mono">Kavindu Perera</span>/&gt;</h1>
+        <h1 className="headTxt">Hi,I'm <span className="text-yellow-500 font-bold font-mono">Kavindu Perera</span></h1>
         
          {/* <Image
               className="absolute right-28 top-60 rounded-full"
