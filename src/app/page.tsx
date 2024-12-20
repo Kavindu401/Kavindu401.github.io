@@ -14,7 +14,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col bg-black-500 w-full h-screen bg-slate-400">
-        <h1 className="headTxt">&lt;Hi,I'm <span className="text-yellow-500 font-bold font-mono">Kavindu Perera</span>/&gt;</h1>
+      <h1 className="headTxt">Hi,I'm <span className="text-yellow-500 font-bold font-mono">Kavindu Perera</span></h1>
       </div>
     </div>
   );
