@@ -65,3 +65,17 @@
         visibility: visible;
     }
   }
+  #faceImage{
+    visibility: hidden;
+    animation: imageApear 2s 4s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes imageApear{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      visibility: visible;
+    }
+  }
