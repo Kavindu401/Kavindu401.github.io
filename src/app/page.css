@@ -50,3 +50,18 @@
         visibility: visible;
     }
   }
+
+  #buttonBox{
+    visibility: hidden;
+    animation: button-apear 2s 4s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes button-apear{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        visibility: visible;
+    }
+  }
