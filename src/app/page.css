@@ -13,5 +13,40 @@
     animation: typing 4s steps(40, end), removeCursor 0s 4s forwards;
     animation-fill-mode: forwards;
     border-right: 10px solid white;
-    line-height: 1; /* Adjust line height if necessary */
+    line-height: 1;
+    padding-right: 0;
 }
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 57%;
+    }
+  }
+
+  @keyframes removeCursor {
+    100% {
+      border-right: none; /* Remove the cursor at the end of the typing animation */
+    }
+  }
+
+  .para{
+    margin-left: 5rem;
+    margin-top: 3rem;
+    display: inline-block;
+    visibility: hidden;
+    width: 600px;
+    animation: apear 2s 4s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes apear{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        visibility: visible;
+    }
+  }
