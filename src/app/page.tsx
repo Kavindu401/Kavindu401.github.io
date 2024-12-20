@@ -83,7 +83,7 @@ export default function Home() {
         </Menubar>
         </div>
         <h1 className="headTxt">&lt;Hi,I'm <span className="text-yellow-500 font-bold font-mono">Kavindu Perera</span>/&gt;</h1>
-        
+        {/* <img src="../assets/face.jpg" alt="kavindu" className="absolute right-28 top-60 rounded-full" width={250} height={250} /> */}
         {/* <h1 className="text-white mt-5 ml-40 text-5xl font-mono"><span className="text-yellow-500 font-bold font-mono">Kavindu Perera</span>/&gt;</h1> */}
         {/* <div className="h-[150px] md:w-[600px] ml-20 mt-10">
           <p className="text-white text-lg font-mono">&lt;"I’m dedicated to honing my skills and delivering high-quality work. I believe in the power of persistence and focus, always striving to improve with each project I take on. Without gibbering on more, let me show you what I’ve done."/&gt;</p>
